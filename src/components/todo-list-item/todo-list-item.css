@@ -1,0 +1,15 @@
+.todo-list-item .todo-list-item-label {
+    cursor: pointer;
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+}
+
+.todo-list-item.done .todo-list-item-label {
+    text-decoration: line-through;
+}
+
+.todo-list-item.important .todo-list-item-label {
+    font-weight: bold;
+    color: steelblue;
+}
